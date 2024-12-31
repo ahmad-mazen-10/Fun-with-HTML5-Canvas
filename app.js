@@ -19,7 +19,7 @@ let direction = true;
 function draw(e) {
     if (!isDrawing) return;
     console.log(e)
-    ctx.strokStyle = `hsl(${hue},100%,50%)`;
+    ctx.strokeStyle = `hsl(${hue},100%,50%)`;
 
     ctx.beginPath();
     ctx.moveTo(lastX, lastY);           //start from
